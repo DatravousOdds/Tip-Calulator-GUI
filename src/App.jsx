@@ -1,6 +1,6 @@
 import "./App.css";
 import Container from "./Components/Container";
-import  {useState} from 'react';
+
 const headerStyle = {
     color: "white",
     fontFamily: "Arial",
@@ -10,10 +10,7 @@ const headerStyle = {
     paddingTop: "3rem",
   };
 export default function App() {
-  const [billAmount, setBillAmount] = useState('');
-  const [tipRate, setTipRate] = useState('');
-  const [tipAmount, setTipAmount] = useState(0.0);
-  const [totalAmount, setTotalAmount] = useState(0.00)
+  
   
   return (
     <main>
